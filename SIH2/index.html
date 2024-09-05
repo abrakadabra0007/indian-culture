@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Culture</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 
 <body>
     <div id="home">
-    <div class="banner">
-        <video autoplay muted loop class="background-video">
-            <source src="VID-20240903-WA0004.mp4" type="video/mp4">
+        <div class="banner">
+            <video autoplay muted loop class="background-video">
+                <source src="VID-20240903-WA0004.mp4" type="video/mp4">
 
-        </video>
-        <div class="navbar">
-            <img src="logo.png" class="logo" alt="INDIA">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Heritage_sites">Heritage Sites</a></li>
-                <li><a href="#visit">Gallery</a></li>
-                <li><a href="#virtual-museum">Virtual Museum</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
+            </video>
+            <div class="navbar">
+                <img src="logo.png" class="logo" alt="INDIA">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Heritage_sites">Heritage Sites</a></li>
+                    <li><a href="#visit">Gallery</a></li>
+                    <li><a href="#virtual-museum">Virtual Museum</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
         </div>
-        </div>
-
         <div class="content">
             <div class="animated-text">
                 <div class="text">WELCOME TO INDIA</div>
@@ -42,65 +39,51 @@
             </div>
         </div>
     </div>
-    <!DOCTYPE html>
-    <html lang="en">
+    <div class="toggle-container">
+        <button class="toggle-button" onclick="openAssistant()">
+            <img src="namaste girl.jpg" alt="AI Assistant">
+        </button>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AI Assistant</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-
-    <body>
-        <div class="toggle-container">
-            <button class="toggle-button" onclick="openAssistant()">
-                <img src="namaste girl.jpg" alt="AI Assistant">
-            </button>
-
-        </div>
-        </div>
-
-        <section id="Heritage_sites">
-            <center>
-                <h1> Locate top heritage sites in India!</h1>
-            </center>
-            <br><br>
-            <center>
-                <p>
-                <h4>This map depicts the top ten historical sites in India in terms of their geographical location.<br>
-                    Click on any pointer to learn more about the place and to appreciate the diversity!</h4>
-                </p>
-            </center>
-            <br><br>
-            <center> <iframe
-                    src="https://www.google.com/maps/d/u/0/embed?mid=1rWVL7-ObutJZd9PlLtzqS4kounhEzHg&ehbc=2E312F"
-                    width="60%" height="480"></iframe></center>
-        </section>
-
-        <section id="festivals">
-            <h2>Traditional Indian Festivals</h2>
-            <div class="festivals-container">
-                <div class="festival-item">
-                    <img src="diwali.jpeg" alt="Diwali">
-                    <h3>Diwali</h3>
-                    <p>Diwali, also known as the Festival of Lights, is celebrated by Hindus, Sikhs, and Jains. It symbolizes the victory of light over darkness and good over evil.</p>
-                </div>
-                <div class="festival-item">
-                    <img src="holi.webp" alt="Holi">
-                    <h3>Holi</h3>
-                    <p>Holi is the Festival of Colors, marking the arrival of spring. It is celebrated with vibrant colors, joyous music, and dancing.</p>
-                </div>
-                <div class="festival-item">
-                    <img src="eid.jpeg" alt="Eid">
-                    <h3>Eid-ul-Fitr</h3>
-                    <p>Eid-ul-Fitr marks the end of Ramadan, the Islamic holy month of fasting. It is a time for feasting, giving charity, and spending time with family.</p>
-                </div>
+    </div>
+    <section id="Heritage_sites">
+        <center>
+            <h1> Locate top heritage sites in India!</h1>
+        </center>
+        <br><br>
+        <center>
+            <p>
+            <h4>This map depicts the top ten historical sites in India in terms of their geographical location.<br>
+                Click on any pointer to learn more about the place and to appreciate the diversity!</h4>
+            </p>
+        </center>
+        <br><br>
+        <center> <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rWVL7-ObutJZd9PlLtzqS4kounhEzHg&ehbc=2E312F"
+                width="60%" height="480"></iframe></center>
+    </section>
+    <section id="festivals">
+        <h2>Traditional Indian Festivals</h2>
+        <div class="festivals-container">
+            <div class="festival-item">
+                <img src="diwali.jpeg" alt="Diwali">
+                <h3>Diwali</h3>
+                <p>Diwali, also known as the Festival of Lights, is celebrated by Hindus, Sikhs, and Jains. It
+                    symbolizes the victory of light over darkness and good over evil.</p>
             </div>
-        </section>
-        
-
-        <section id="visit">
+            <div class="festival-item">
+                <img src="holi.webp" alt="Holi">
+                <h3>Holi</h3>
+                <p>Holi is the Festival of Colors, marking the arrival of spring. It is celebrated with vibrant colors,
+                    joyous music, and dancing.</p>
+            </div>
+            <div class="festival-item">
+                <img src="eid.jpeg" alt="Eid">
+                <h3>Eid-ul-Fitr</h3>
+                <p>Eid-ul-Fitr marks the end of Ramadan, the Islamic holy month of fasting. It is a time for feasting,
+                    giving charity, and spending time with family.</p>
+            </div>
+        </div>
+    </section>
+    <section id="visit">
         <section class="gallery">
             <h2>Gallery</h2>
             <div class="gallery-container">
@@ -121,20 +104,20 @@
                 <div class="gallery-item">
                     <a href="https://nationalmuseumindia.gov.in/en" target="_blank">
                         <img src="ms.jpg" alt="Exhibit 1">
+                        <div class="overlay">
+                            <div class="text">Explore</div>
+                        </div>
                     </a>
-                    <div class="overlay">
-                        <div class="text">Exhibit 1 Description</div>
-                    </div>
                 </div>
                 <div class="gallery-item">
                     <a href="https://indianmuseumkolkata.org/" target="_blank">
                         <img src="ms2.jpg" alt="Exhibit 2">
+
+                        <div class="overlay">
+                            <div class="text">Explore</div>
+                        </div>
                     </a>
-                    <div class="overlay">
-                        <div class="text">Exhibit 2 Description</div>
-                    </div>
                 </div>
-                <!-- Add more gallery items as needed -->
             </div>
         </div>
     </section>
@@ -155,8 +138,6 @@
                     <li><a href="#">About</a></li>
                 </ul>
             </div>
-
-            
             <div class="footer-section">
                 <h4>Contact Us</h4>
                 <p>Email: info@indiaculture.com</p>
@@ -176,15 +157,6 @@
             <p>&copy; 2024 Indian Culture. All Rights Reserved.</p>
         </div>
     </footer>
-    
-
-
-        <script src="script.js"></script>
-    </body>
-
-    </html>
-
-
+    <script src="script.js"></script>
 </body>
-
 </html>
